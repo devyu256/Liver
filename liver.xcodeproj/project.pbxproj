@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E87D44129FF661300BF4362 /* liverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E87D44029FF661300BF4362 /* liverApp.swift */; };
+		6E87D44329FF661300BF4362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E87D44229FF661300BF4362 /* ContentView.swift */; };
+		6E87D44529FF661400BF4362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E87D44429FF661400BF4362 /* Assets.xcassets */; };
+		6E87D44829FF661400BF4362 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E87D44729FF661400BF4362 /* Preview Assets.xcassets */; };
+		6E87D44F29FF668300BF4362 /* AdmobBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E87D44E29FF668300BF4362 /* AdmobBannerView.swift */; };
+		6E87D45129FF66AB00BF4362 /* LiverData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E87D45029FF66AB00BF4362 /* LiverData.swift */; };
+		E7C1B1DC4A60A7AC0E3C41F1 /* Pods_liver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CE9FAAA8787BE4DD66132F /* Pods_liver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47BC6A5059CE2A4475D8BF36 /* Pods-liver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liver.release.xcconfig"; path = "Target Support Files/Pods-liver/Pods-liver.release.xcconfig"; sourceTree = "<group>"; };
+		6236782DAC9505B4EF8C9D25 /* Pods-liver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liver.debug.xcconfig"; path = "Target Support Files/Pods-liver/Pods-liver.debug.xcconfig"; sourceTree = "<group>"; };
+		63CE9FAAA8787BE4DD66132F /* Pods_liver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E87D43D29FF661300BF4362 /* liver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E87D44029FF661300BF4362 /* liverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liverApp.swift; sourceTree = "<group>"; };
+		6E87D44229FF661300BF4362 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E87D44429FF661400BF4362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E87D44729FF661400BF4362 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E87D44E29FF668300BF4362 /* AdmobBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmobBannerView.swift; sourceTree = "<group>"; };
+		6E87D45029FF66AB00BF4362 /* LiverData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiverData.swift; sourceTree = "<group>"; };
+		6E87D45229FF683500BF4362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E87D43A29FF661300BF4362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C1B1DC4A60A7AC0E3C41F1 /* Pods_liver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E87D43429FF661300BF4362 = {
+			isa = PBXGroup;
+			children = (
+				6E87D43F29FF661300BF4362 /* liver */,
+				6E87D43E29FF661300BF4362 /* Products */,
+				7AA89DA409C86D9308E6AB0B /* Pods */,
+				EB43B852D1D601D1A2751970 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E87D43E29FF661300BF4362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E87D43D29FF661300BF4362 /* liver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E87D43F29FF661300BF4362 /* liver */ = {
+			isa = PBXGroup;
+			children = (
+				6E87D45229FF683500BF4362 /* Info.plist */,
+				6E87D44029FF661300BF4362 /* liverApp.swift */,
+				6E87D44229FF661300BF4362 /* ContentView.swift */,
+				6E87D44429FF661400BF4362 /* Assets.xcassets */,
+				6E87D44629FF661400BF4362 /* Preview Content */,
+				6E87D44E29FF668300BF4362 /* AdmobBannerView.swift */,
+				6E87D45029FF66AB00BF4362 /* LiverData.swift */,
+			);
+			path = liver;
+			sourceTree = "<group>";
+		};
+		6E87D44629FF661400BF4362 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E87D44729FF661400BF4362 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AA89DA409C86D9308E6AB0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6236782DAC9505B4EF8C9D25 /* Pods-liver.debug.xcconfig */,
+				47BC6A5059CE2A4475D8BF36 /* Pods-liver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB43B852D1D601D1A2751970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63CE9FAAA8787BE4DD66132F /* Pods_liver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E87D43C29FF661300BF4362 /* liver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E87D44B29FF661400BF4362 /* Build configuration list for PBXNativeTarget "liver" */;
+			buildPhases = (
+				F8D1E98DC2CF683D3B7A2E66 /* [CP] Check Pods Manifest.lock */,
+				6E87D43929FF661300BF4362 /* Sources */,
+				6E87D43A29FF661300BF4362 /* Frameworks */,
+				6E87D43B29FF661300BF4362 /* Resources */,
+				8156EDE4F23CA03A11439CFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liver;
+			productName = liver;
+			productReference = 6E87D43D29FF661300BF4362 /* liver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E87D43529FF661300BF4362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6E87D43C29FF661300BF4362 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 6E87D43829FF661300BF4362 /* Build configuration list for PBXProject "liver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E87D43429FF661300BF4362;
+			productRefGroup = 6E87D43E29FF661300BF4362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E87D43C29FF661300BF4362 /* liver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E87D43B29FF661300BF4362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E87D44829FF661400BF4362 /* Preview Assets.xcassets in Resources */,
+				6E87D44529FF661400BF4362 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8156EDE4F23CA03A11439CFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-liver/Pods-liver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-liver/Pods-liver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-liver/Pods-liver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D1E98DC2CF683D3B7A2E66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E87D43929FF661300BF4362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E87D44329FF661300BF4362 /* ContentView.swift in Sources */,
+				6E87D44129FF661300BF4362 /* liverApp.swift in Sources */,
+				6E87D45129FF66AB00BF4362 /* LiverData.swift in Sources */,
+				6E87D44F29FF668300BF4362 /* AdmobBannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E87D44929FF661400BF4362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E87D44A29FF661400BF4362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E87D44C29FF661400BF4362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6236782DAC9505B4EF8C9D25 /* Pods-liver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"liver/Preview Content\"";
+				DEVELOPMENT_TEAM = HL4876W82F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = liver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shimayu-liver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E87D44D29FF661400BF4362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BC6A5059CE2A4475D8BF36 /* Pods-liver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"liver/Preview Content\"";
+				DEVELOPMENT_TEAM = HL4876W82F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = liver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shimayu-liver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E87D43829FF661300BF4362 /* Build configuration list for PBXProject "liver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E87D44929FF661400BF4362 /* Debug */,
+				6E87D44A29FF661400BF4362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E87D44B29FF661400BF4362 /* Build configuration list for PBXNativeTarget "liver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E87D44C29FF661400BF4362 /* Debug */,
+				6E87D44D29FF661400BF4362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E87D43529FF661300BF4362 /* Project object */;
+}
