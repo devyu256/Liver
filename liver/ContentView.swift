@@ -32,18 +32,18 @@ struct ContentView: View {
     
     func startFunc() -> Void {
         
-                print("start")
-                print(livers.regDate)
-                print(livers.regYear)
-                print(livers.regWeek)
-                print(livers.days)
-                print(livers.weeks)
-        
-                livers.regDate = "2023/05/03"
-                livers.regYear = 2023
-                livers.regWeek = 18
-                livers.days = 3
-                livers.weeks = 1
+//                print("start")
+//                print(livers.regDate)
+//                print(livers.regYear)
+//                print(livers.regWeek)
+//                print(livers.days)
+//                print(livers.weeks)
+//
+//                livers.regDate = "2023/05/03"
+//                livers.regYear = 2023
+//                livers.regWeek = 18
+//                livers.days = 3
+//                livers.weeks = 1
         
         var calendar = Calendar(identifier: .gregorian)
         var lastYearWeekNumber = 0
@@ -77,7 +77,7 @@ struct ContentView: View {
             //前年度である場合
             if livers.regYear == lastYear {
                 if livers.regWeek == lastYearWeekNumber {
-                    if livers.days >= 2 {
+                    if livers.days >= livers.count {
                         livers.weeks += 1
                         livers.days = 0
                     } else {
@@ -169,8 +169,7 @@ struct ContentView: View {
                 
                 
                 Spacer()
-//                AdmobBannerView()
-                
+                AdmobBannerView()
             }.onAppear{
                 startFunc()
             }
